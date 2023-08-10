@@ -1,0 +1,68 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+              @prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+              @prefix dct: <http://purl.org/dc/terms/> .
+              @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+              @prefix schema: <http://schema.org/> .
+              @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+              @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+              <https://zenodo.org/record/8229284> a dcat:Dataset ;
+                  dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+                  dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
+                  dcatde:contributor [ a foaf:Person; foaf:name "Marc Wiedermann"; foaf:account <http://orcid.org/0000-0001-9869-3789>; ],[ a foaf:Person; foaf:name "Robert Bruckmann"; foaf:account <http://orcid.org/0000-0002-0971-6983>; ],[ a foaf:Person; foaf:name "Dirk Brockmann"; foaf:account <http://orcid.org/0000-0001-5708-2922>; ];
+                  dct:description "Die Daten von Fitnessarmbändern und Smartwatches, sogenannten Wearables, können Hinweise auf Symptome einer COVID-19 Erkrankung liefern. Mit Hilfe der <a href=\"https://corona-datenspende.de/science/\">Corona-Datenspende-App</a> (CDA) konnten Bürger:innen dem Robert Koch-Institut solche Daten für wissenschaftliche Zwecke zur Verfügung stellen. Zusammen mit Informationen aus anderen Quellen, z.B. offiziellen Meldedaten zu Fallzahlen, helfen diese Daten den Wissenschaftler:innen, die Ausbreitung des Coronavirus besser zu erfassen und zu verstehen.<br>Die in diesem Repository bereit gestellten Datenpunkten beinhalten räumlich und zeitlich aggregierte Informationen zum mittleren Ruhepuls, der mittleren täglichen Schrittzahl und der mittleren Schlafdauer pro Tag und Landkreis und kreisfreier Stadt, Regierungsbezirk, Bundesland sowie dem täglichen deutschlandweiten Mittelwert. Eine visualle und interaktive Aufbereitung der Daten findet sich bereits im <a href=\"https://corona-datenspende.de/science/vitaldata-tool/\">Vitaldaten-Explorer</a>, welcher durch das Team der CDA bereit gestellt wurde.<br>Die hier bereitgestellten Datenpunkte dienen der Weiternutzung in der Wissenschaft und der interessierten Öffentlichkeit. Sie decken den vollständigen Erhebungszeitraum der CDA vom April 2020 bis Dezember 2022 ab. Da es sich bei den bereit gestellten Daten um räumliche Mittelwerte handelt sind keine Rückschlüsse auf Einzelpersonen möglich." ;
+                  dct:issued "2023-08-10T13:32:37+02:00"^^xsd:dateTime ;
+                  dct:modified "2023-08-10T13:32:37+02:00"^^xsd:dateTime ;
+                  dct:publisher [ a foaf:Organization ;
+                      foaf:mbox "opendata@rki.de" ;
+                      foaf:name "Robert Koch Institut"
+                  ] ;
+                  dct:title "Corona-Datenspende - Teildatensatz Vitaldaten" ;
+                   dcat:contactPoint [ a vcard:Organization ;
+                        vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+                        vcard:hasCountryName "Deutschland" ;
+                        vcard:hasEmail "opendata@rki.de";
+                        vcard:hasLocality "Berlin" ;
+                        vcard:hasPostalCode "13353" ;
+                        vcard:hasStreetAddress "Nordufer 20"
+                  ];
+                  dcat:landingPage <https://robert-koch-institut.github.io/Corona-Datenspende_Teildatensatz_Vitaldaten>;
+                  dcat:theme    <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+                                <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+                                <http://publications.europa.eu/resource/authority/data-theme/TECH>;
+                  dcat:keyword "COVID-19","SARS-CoV-2","Schlaf","Sleep","Resting Heart Rate","Ruheherzfrequenz","Ruhepuls","Resting Pulse","Smartwatch","Wearables","Datenspende","Deutschland","Germany","Open Data","Offene Datan","RKI","Gesundheitsberichterstattung","Epidemiologie","Public health surveillance","Epidemiology";
+                  dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
+                  dcat:distribution [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Wiedermann, Marc, Bruckmann, Robert, Brockmann, Dirk (2023): Corona-Datenspende - Teildatensatz Vitaldaten, Berlin: Zenodo. DOI:10.5281/zenodo.8229284" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Github - Corona-Datenspende - Teildatensatz Vitaldaten" ;
+                    dcat:accessURL <https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Vitaldaten>;
+                    dct:modified "2023-08-10T13:32:37+02:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Wiedermann, Marc, Bruckmann, Robert, Brockmann, Dirk (2023): Corona-Datenspende - Teildatensatz Vitaldaten, Berlin: Zenodo. DOI:10.5281/zenodo.8229284" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Zenodo - Corona-Datenspende - Teildatensatz Vitaldaten" ;
+                    dcat:accessURL <https://zenodo.org/record/8229284>;
+                    dct:modified "2023-08-10T13:32:37+02:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dct:title "[Dokumentation] Corona-Datenspende_-_Teildatensatz_Vitaldaten.pdf" ;
+                    dcatde:licenseAttributionByText "Wiedermann, Marc, Bruckmann, Robert, Brockmann, Dirk (2023): Corona-Datenspende - Teildatensatz Vitaldaten, Berlin: Zenodo. DOI:10.5281/zenodo.8229284" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Corona-Datenspende - Teildatensatz Vitaldaten' bereitgestellten Daten" ;
+                    dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dcat:accessURL <https://zenodo.org/record/8229284/files/%5BDokumentation%5D_Corona-Datenspende_Teildatensatz_Vitaldaten.pdf>;
+                    dct:modified "2023-08-10T13:32:37+02:00"^^xsd:dateTime;
+                  ].
