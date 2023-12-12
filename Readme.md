@@ -26,9 +26,9 @@ Seit ihrer ersten verfügbaren Version (April 2020) erhob die CDA sogenannte Vit
 
 Die in diesem Repository bereit gestellten Datenpunkten beinhalten räumlich und zeitlich aggregierte Informationen zum mittleren Ruhepuls, der mittleren täglichen Schrittzahl und der mittleren Schlafdauer pro Tag und Landkreis & kreisfreier Stadt, Regierungsbezirk, Bundesland sowie dem täglichen deutschlandweiten Mittelwert. Diese Zuordnung orientiert sich an den Definitionen der [europäischen Gebietseinheiten (*NUTS*)](https://de.wikipedia.org/wiki/NUTS) von *NUTS3* (Landkreise) zu *NUTS0* (Nationalstaat).
 
-Eine visualle und interaktive Aufbereitung der Daten findet sich bereits im  [Vitaldaten-Explorer](https://corona-datenspende.de/science/vitaldata-tool/), welcher durch das Team der CDA bereit gestellt wurde. 
+Eine visuelle und interaktive Aufbereitung der Daten findet sich bereits im  [Vitaldaten-Explorer](https://corona-datenspende.de/science/vitaldata-tool/), der durch das Team der CDA bereit gestellt wurde. 
 
-Die hier bereitgestellten Datenpunkte dienen der Weiternutzung in der Wissenschaft und der interessierten Öffentlichkeit. Sie decken den vollständigen Erhebungszeitraum der CDA vom April 2020 bis Dezember 2022 ab. Da es sich bei den bereit gestellten Daten um räumliche Mittelwerte handelt sind keine Rückschlüsse auf Einzelpersonen möglich.
+Die hier veröffentlichten Datenpunkte dienen der Weiternutzung in der Wissenschaft und der interessierten Öffentlichkeit. Sie decken den vollständigen Erhebungszeitraum der CDA vom April 2020 bis Dezember 2022 ab. Da es sich bei den bereit gestellten Daten um räumliche Mittelwerte handelt, sind keine Rückschlüsse auf Einzelpersonen möglich.
 
 Weitere Information zur CDA finden sich auf [corona-datenspende.de/science](https://corona-datenspende.de/science).
 
@@ -53,7 +53,7 @@ Die Teilnahme an der CDA war freiwillig und unentgeltlich. Alle Teilnehmer:innen
 
 #### Ein- und Ausschlusskriterien 
 
-Eine Teilnahme war allen Personen ab 16 Jahren möglich, die bis zum Jahreswechsel 2022/2023 Zugang zu einen deutschen App-Store hatten. Eine Veröffentlichung der CDA in App Stores außerhalb von Deutschland war nicht möglich. 
+Eine Teilnahme war allen Personen ab 16 Jahren möglich, die bis zum Jahreswechsel 2022/2023 Zugang zu einem deutschen App-Store hatten. Eine Veröffentlichung der CDA in App Stores außerhalb von Deutschland war nicht möglich. 
 
 Aus der Aggregation entfernt wurden:
 - Personen mit Postleitzahlkürzel, das nicht trennscharf zu einer NUTS3-Gebietseinheit zugeordnet werden kann. Hierzu zählen inbesondere Teilnehmer:innen für die nur die ersten drei Stellen der Postleitzahl vorliegen (siehe oben)
@@ -67,9 +67,9 @@ Aus der Aggregation entfernt wurden:
 
 Insgesamt hatten mehr als eine Million Menschen die CDA installiert. Mehr als 500,000 Menschen haben schlussendlich mindestens ein Wearable verbunden und somit mindestens einen Datenpunkt übermittelt. An den Befragungsstudien nahmen regelmäßig bis zu 30,000 Menschen teil.
 
-Der hier bereitgestellt Datensatz aggregiert die Wearable-Messungen aller Nutzer:innen über die gesamte Projektlaufzeit (991 Tage, 15.04.2020 bis 31.12.2022), und stellt tägliche Mittelwerte für Ruhepuls, Schlafdauer und Schrittanzahl über alle Gebietseinheiten der Bundesrepublik Deutschland zur Verfügung. Im Durchschnitt ergibt sich ein Tagesmittelwert in den Landkreisen bzw. den kreisfreien Städten aus 507 Personen für die Schrittzählung, 158 Personen für Schlafaufzeichnungen, und 310 Personen für Ruhepulsmessungen. In jeden bereitgestellten Mittelwert gehen dabei mindestens drei individuelle Datenpunkte ein. 
+Der hier bereitgestellte Datensatz aggregiert die Wearable-Messungen aller Nutzer:innen über die gesamte Projektlaufzeit (991 Tage, 15.04.2020 bis 31.12.2022), und stellt tägliche Mittelwerte für Ruhepuls, Schlafdauer und Schrittanzahl über alle Gebietseinheiten der Bundesrepublik Deutschland zur Verfügung. Im Durchschnitt ergibt sich ein Tagesmittelwert in den Landkreisen bzw. den kreisfreien Städten aus 507 Personen für die Schrittzählung, 158 Personen für Schlafaufzeichnungen, und 310 Personen für Ruhepulsmessungen. In jeden Mittelwert gehen dabei mindestens drei individuelle Datenpunkte ein. 
 
-Insgesamt werden die Vitaldaten von 493487 Teilnehmer:innen berücksichtigt. Davon haben 199.033 Teilnehmer:innen freiwillige Angaben zum eigenen Geschlecht gemacht. Hierbei gaben 75220 (37.79%) Personen an weiblich zu sein, 123563 (62.08%) waren männlich und 250 (0.13%) divers. 
+Insgesamt werden die Vitaldaten von 493.487 Teilnehmer:innen berücksichtigt. Davon haben 199.033 Teilnehmer:innen freiwillige Angaben zum eigenen Geschlecht gemacht. Hierbei gaben 75220 (37.79%) Personen an weiblich zu sein, 123563 (62.08%) waren männlich und 250 (0.13%) divers. 
 
 ## Aufbau und Inhalt des Datensatzes 
 Zentraler Inhalt des Datensatzes sind Aggregationen der innerhalb der CDA erhobenen Vitaldaten. Im Datensatz insgesamt enthalten sind:
@@ -79,7 +79,7 @@ Zentraler Inhalt des Datensatzes sind Aggregationen der innerhalb der CDA erhobe
 - Datensatzdokumentation in deutscher Sprache
 - Metadaten zur Bereitstellung
 
-Die 451.896 Zeilen des Datensatzen Schlüssen sich auf in 991 x 401 Datenpunkte pro NUTS3-Gebietsebene, 991 x 38 Datenpunkte pro NUTS2-Gebietsebene, 991 x 16 Datenpunkte pro NUTS1-Gebietsebene, sowie 991 Datenpunkte für die NUTS0-Gebietsebene.
+Die 451.896 Zeilen des Datensatzen schlüsseln sich auf in 991 x 401 Datenpunkte pro NUTS3-Gebietsebene, 991 x 38 Datenpunkte pro NUTS2-Gebietsebene, 991 x 16 Datenpunkte pro NUTS1-Gebietsebene, sowie 991 Datenpunkte für die NUTS0-Gebietsebene.
 
 ### Vitaldaten
 
