@@ -104,10 +104,10 @@ Insgesamt werden die arithmetisch gemittelten Tageswerte der drei Indikatoren Ru
 | nuts_code | Text | 2- bis 5-stelliger, alphanumerischer Gebietscode der entsprechenden NUTS-Ebenen (z.B. `DE111`) | Jede Gebietseinheit besitzt eine eindeutige ID, und kann - sofern vorhanden - der entsprechenden Obereinheit zugeordnet werden. Beispiel: <ul> <li>DE11D (5-stellig, NUTS3): Ostalbkreis</li> <li>DE11 (4-stellig, NUTS2): Stuttgart</li> <li> DE1 (3-stellig, NUTS1): Baden-Württemberg </li> <li> DE (2-stellig, NUTS0): Bundesrepublik Deutschland</li> </ul>|
 | heartrate_mean | Dezimalzahl | positiv reelle Zahlen (auf 2 Nachkommastellen gerundet) | tagesgemittelter Ruhepuls |
 |heartrate_standard_error | Dezimalzahl | positiv reelle Zahlen (auf 2 Nachkommastellen gerundet) | Parameter zur Einschätzung der Streuung und Präzision in den Ruhepuls-Tagesmittelwerten. |
-| steps_mean | ganzzahlig | positive natürliche Zahlen (auf 2 Nachkommastellen gerundet) | tagesgemittelte Schrittzahl |
-|steps_standard_error | ganzzahlig | positive natürliche Zahlen (auf 2 Nachkommastellen gerundet) | Parameter zur Einschätzung der Streuung und Präzision in den Schrittzahl-Tagesmittelwerten. |
-| sleep_mean | Dezimalzahl | positiv reelle Zahlen (auf 2 Nachkommastellen gerundet) | tagesgemittelte Schlafdauer |
-|sleep_standard_error | Dezimalzahl | positiv reelle Zahlen (auf 2 Nachkommastellen gerundet) | Parameter zur Einschätzung der Streuung und Präzision in den Schlafdauer-Tagesmittelwerten. |
+| steps_mean | ganzzahlig | positive natürliche Zahlen | tagesgemittelte Schrittzahl |
+|steps_standard_error | Dezimalzahl | positive natürliche Zahlen (auf 1 Nachkommastelle gerundet) | Parameter zur Einschätzung der Streuung und Präzision in den Schrittzahl-Tagesmittelwerten. |
+| sleep_duration_mean | Dezimalzahl | positiv reelle Zahlen (auf 2 Nachkommastellen gerundet) | tagesgemittelte Schlafdauer |
+|sleep_duration_standard_error | Dezimalzahl | positiv reelle Zahlen (auf 2 Nachkommastellen gerundet) | Parameter zur Einschätzung der Streuung und Präzision in den Schlafdauer-Tagesmittelwerten. |
  
 ### Kontextmaterialien 
 
