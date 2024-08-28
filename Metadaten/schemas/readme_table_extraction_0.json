@@ -1,0 +1,75 @@
+{
+  "fields": [
+    {
+      "name": "date",
+      "type": "date",
+      "description": "Datumsvariable nach  ISO-8601 Standard"
+    },
+    {
+      "name": "nuts_level",
+      "type": "string",
+      "description": "Die Nomenclature des Unités territoriales statistiques (NUTS) ist ein [System zur geografischen Gebietseinteilung](https://ec.europa.eu/eurostat/documents/3859598/15193590/KS-GQ-22-010-EN-N.pdf) in der Europäischen Union. Sie ist in der Bundesrepublik Deutschland wie folgt definiert: <ul><li>NUTS0: Bundesebene</li><li>NUTS1: 16 Bundesländer</li><li> NUTS2: 38 Regionen <ul><li>19 Regierungsbezirke</li> <li>10 ehemalige Regierungsbezirke</li> <li>9 Länder ohne weitere Unterteilung)</li></ul> <li>NUTS3: 401 Landkreise & kreisfreie Städte</li></ul>",
+      "constraints": {
+        "enum": [
+          "NUTS0",
+          "NUTS1",
+          "NUTS2",
+          "NUTS3"
+        ]
+      }
+    },
+    {
+      "name": "nuts_code",
+      "type": "string",
+      "description": "Jede Gebietseinheit besitzt eine eindeutige ID, und kann - sofern vorhanden - der entsprechenden Obereinheit zugeordnet werden. Beispiel: <ul> <li>DE11D (5-stellig, NUTS3): Ostalbkreis</li> <li>DE11 (4-stellig, NUTS2): Stuttgart</li> <li> DE1 (3-stellig, NUTS1): Baden-Württemberg </li> <li> DE (2-stellig, NUTS0): Bundesrepublik Deutschland</li> </ul>"
+    },
+    {
+      "name": "heartrate_mean",
+      "type": "number",
+      "description": "tagesgemittelter Ruhepuls",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "heartrate_standard_error",
+      "type": "number",
+      "description": "Parameter zur Einschätzung der Streuung und Präzision in den Ruhepuls-Tagesmittelwerten.",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "steps_mean",
+      "type": "integer",
+      "description": "tagesgemittelte Schrittzahl",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "steps_standard_error",
+      "type": "number",
+      "description": "Parameter zur Einschätzung der Streuung und Präzision in den Schrittzahl-Tagesmittelwerten.",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "sleep_duration_mean",
+      "type": "number",
+      "description": "tagesgemittelte Schlafdauer",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "sleep_duration_standard_error",
+      "type": "number",
+      "description": "Parameter zur Einschätzung der Streuung und Präzision in den Schlafdauer-Tagesmittelwerten.",
+      "constraints": {
+        "minimum": 0
+      }
+    }
+  ]
+}

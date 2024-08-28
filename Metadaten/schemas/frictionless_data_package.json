@@ -1,0 +1,16 @@
+{
+  "name": "corona-datenspende_teildatensatz_vitaldaten",
+  "title": "Corona-Datenspende_Teildatensatz_Vitaldaten",
+  "description": "Frictionless data package. This package lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/.",
+  "resources": [
+    {
+      "name": "corona-datenspende_teildatensatz_vitaldaten",
+      "type": "table",
+      "path": "../../Corona-Datenspende_Teildatensatz_Vitaldaten.tsv",
+      "scheme": "file",
+      "format": "tsv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_Corona-Datenspende_Teildatensatz_Vitaldaten.json"
+    }
+  ]
+}
