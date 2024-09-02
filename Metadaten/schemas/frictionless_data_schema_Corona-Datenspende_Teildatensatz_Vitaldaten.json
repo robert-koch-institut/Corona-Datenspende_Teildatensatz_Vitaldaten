@@ -3,7 +3,8 @@
     {
       "name": "date",
       "type": "date",
-      "description": "Datumsvariable nach  ISO-8601 Standard"
+      "description": "Datumsvariable nach  ISO-8601 Standard",
+      "format": "%Y-%m-%d"
     },
     {
       "name": "nuts_level",

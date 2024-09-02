@@ -99,7 +99,7 @@ Insgesamt werden die arithmetisch gemittelten Tageswerte der drei Indikatoren Ru
 
 | Varname | Format | Ausprägungen| Kurzbeschreibung|
 | ------- | ------ | ----------- | ---- |
-| date | Datum | `2020-04-15` bis `2022-12-31` | Datumsvariable nach  ISO-8601 Standard |
+| date | Datum | `YYYY-MM-DD` | Datumsvariable nach  ISO-8601 Standard |
 | nuts_level | Text | `NUTS0`, `NUTS1`, `NUTS2`, `NUTS3` | Die Nomenclature des Unités territoriales statistiques (NUTS) ist ein [System zur geografischen Gebietseinteilung](https://ec.europa.eu/eurostat/documents/3859598/15193590/KS-GQ-22-010-EN-N.pdf) in der Europäischen Union. Sie ist in der Bundesrepublik Deutschland wie folgt definiert: <ul><li>NUTS0: Bundesebene</li><li>NUTS1: 16 Bundesländer</li><li> NUTS2: 38 Regionen <ul><li>19 Regierungsbezirke</li> <li>10 ehemalige Regierungsbezirke</li> <li>9 Länder ohne weitere Unterteilung)</li></ul> <li>NUTS3: 401 Landkreise & kreisfreie Städte</li></ul>|
 | nuts_code | Text | 2- bis 5-stelliger, alphanumerischer Gebietscode der entsprechenden NUTS-Ebenen (z.B. `DE111`) | Jede Gebietseinheit besitzt eine eindeutige ID, und kann - sofern vorhanden - der entsprechenden Obereinheit zugeordnet werden. Beispiel: <ul> <li>DE11D (5-stellig, NUTS3): Ostalbkreis</li> <li>DE11 (4-stellig, NUTS2): Stuttgart</li> <li> DE1 (3-stellig, NUTS1): Baden-Württemberg </li> <li> DE (2-stellig, NUTS0): Bundesrepublik Deutschland</li> </ul>|
 | heartrate_mean | Dezimalzahl | positiv reelle Zahlen (auf 2 Nachkommastellen gerundet) | tagesgemittelter Ruhepuls |

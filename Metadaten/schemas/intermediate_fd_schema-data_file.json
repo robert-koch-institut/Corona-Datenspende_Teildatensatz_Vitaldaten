@@ -1,0 +1,40 @@
+{
+  "fields": [
+    {
+      "name": "date",
+      "type": "date"
+    },
+    {
+      "name": "nuts_level",
+      "type": "string"
+    },
+    {
+      "name": "nuts_code",
+      "type": "string"
+    },
+    {
+      "name": "heartrate_mean",
+      "type": "number"
+    },
+    {
+      "name": "heartrate_standard_error",
+      "type": "number"
+    },
+    {
+      "name": "steps_mean",
+      "type": "integer"
+    },
+    {
+      "name": "steps_standard_error",
+      "type": "number"
+    },
+    {
+      "name": "sleep_duration_mean",
+      "type": "number"
+    },
+    {
+      "name": "sleep_duration_standard_error",
+      "type": "number"
+    }
+  ]
+}
