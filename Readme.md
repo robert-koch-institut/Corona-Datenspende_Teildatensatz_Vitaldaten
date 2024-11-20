@@ -120,11 +120,6 @@ Die Datei [Corona-Datenspende_Teildatensatz_Vitaldaten.tsv](https://github.com/r
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
-
-
-
-
- 
 ### Kontextmaterialien 
 
 Umfassende weitere Informationen zur Corona-Datenspende sowie aktuelle Auswertungsergebnisse finden sich auf [https://corona-datenspende.de/science/](https://corona-datenspende.de/science/). 
