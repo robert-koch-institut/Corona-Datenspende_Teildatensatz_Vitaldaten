@@ -39,7 +39,7 @@ Weitere Information zur CDA finden sich auf [corona-datenspende.de/science](http
 
 Herausgeber der CDA ist das Robert Koch-Institut, eine deutsche Bundesbehörde im Geschäftsbereich des Bundesministeriums für Gesundheit. Die Projektleitung und -koordination liegt bei der Projektgruppe P4 | Modellierung von Infektionskrankheiten. Die App wurde in Zusammenarbeit mit [Thryve (mHealth Pioneers GmbH)](https://thryve.health/) entwickelt, einem auf Digital Health spezialisierten Unternehmen. Dieses Unternehmen ist der technologische Dienstleister. Fragen bezüglich der Corona-Datenspende können an [corona-datenspende@rki.de](mailti:corona-datenspende@rki.de) gerichtet werden.  
 
-Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
+Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.
 
 Durch sorgfältige Auswahl und regelmäßige Kontrolle stellt das Robert Koch-Institut sicher, dass der Dienstleister alle organisatorischen und technischen Maßnahmen trifft, die zum Schutz der Daten erforderlich sind. Alle Maßnahmen stehen im Einklang mit dem geltenden Datenschutzrecht.
 
